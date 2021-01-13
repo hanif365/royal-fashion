@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: 'Bebas Neue', cursive; */
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/************************** Header Section **************************/
+
+header{
+    background-color: rgb(106, 27, 209);
+    border-radius: 0 0 0 250px;
+}
+.nav-right{
+    margin-left: auto;
+}
+/* .banner-img img{
+    height: 84vh;
+} */
+
