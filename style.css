@@ -15,10 +15,17 @@ header{
     background-color: rgb(106, 27, 209);
     border-radius: 0 0 0 250px;
 }
-.nav-right{
+/* .nav-right{
     margin-left: auto;
-}
-/* .banner-img img{
-    height: 84vh;
 } */
+.banner-img img
+{
+    height: 450px;
+}
+.feature-content{
+    border-radius: 15px;
+}
+.feature-content img{
+    width: 70px;
+}
 
