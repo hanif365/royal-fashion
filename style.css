@@ -121,6 +121,7 @@ p{
 #casualBacpack-section{
     background: url("images/bg-casual.png");
     background-size: cover;
+    background-position: center;
 }
 .card-hover{
     opacity: 0.5;
@@ -140,6 +141,12 @@ p{
 }
 
 /***************************** Discount Section *****************************/
+
+#discount-section{
+    background: url("images/bg-casual.png");
+    background-size: cover;
+    background-position: center;
+}
 .img-custom img{
     border-radius: 10px 100px 10px 10px;
 }
@@ -175,7 +182,7 @@ p{
 }
 
 .card-footer button{
-    padding-left: 5px;
+    /* padding-left: 2px; */
 }
 
 /**************************** Bootom To Top Button *****************************/
@@ -195,6 +202,13 @@ p{
 }
 
 /* A piece of Media Query. A little bit value of this project */
+
+@media (max-width:768px){
+    .txt-center{
+        text-align: center;
+        margin-bottom: 50px !important;
+    }
+}
 
 @media (max-width:576px){
     .nav-brand{
