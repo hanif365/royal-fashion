@@ -19,8 +19,8 @@
 </head>
 
 <body>
-    <header class="py-5">
-        <nav class="navbar navbar-expand-lg navbar-dark text-light fixed-top">
+    <header class="">
+        <nav class="navbar navbar-expand-lg navbar-dark text-light sticky-top">
             <div class="container">
                 <a class="navbar-brand" href="#"><i class="fas fa-shopping-bag fa-2x"></i> ROYAL FASHION</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -32,28 +32,28 @@
                         <li class="nav-item px-2">
                             <a class="nav-link active" aria-current="page" href="#">HOME</a>
                         </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#features-section">FEATURES</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#newArival-section">PRODUCT</a>
+                        </li>
+                        <li class="nav-item px-2">
+                            <a class="nav-link" href="#discount-section">DISCOUNT</a>
+                        </li>
                         <!-- <li class="nav-item px-2">
-                                <a class="nav-link" href="#">FEATURES</a>
+                                <a class="nav-link" href="#">ABOUT US</a>
                             </li> -->
                         <li class="nav-item px-2">
-                            <a class="nav-link" href="#">PRODUCT</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="#">DISCOUNT</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="#">ABOUT US</a>
-                        </li>
-                        <li class="nav-item px-2">
-                            <a class="nav-link" href="#">CONTACT US</a>
+                            <a class="nav-link" href="#contact-section">CONTACT US</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <div id="banner-section" class="py-5">
-            <div class="container">
+        <section id="banner-section" class="py-5">
+            <div class="container py-5">
                 <div class="row d-flex align-items-center">
                     <div class="col-md-6">
                         <h1>Backpack</h1>
@@ -67,8 +67,10 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     </header>
+
+
 
 
     <main>
@@ -113,7 +115,7 @@
 
         <section id="newArival-section" class="py-5">
             <div class="container">
-                <h4 class="mb-3">NEW ARIVALS</h4>
+                <h4 class="mb-4"><span class="text-highlight">NEW</span> ARIVALS</h4>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100 card-content border-0 shadow-lg">
@@ -184,7 +186,7 @@
 
         <section id="casualBacpack-section" class="py-5">
             <div class="container">
-                <h4 class="mb-3">CASUAL BACKPACK</h4>
+                <h4 class="mb-4"><span class="text-highlight">CASUAL</span> BACKPACK</h4>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100 card-content card-hover border-0 shadow-lg">
@@ -255,7 +257,7 @@
 
         <section id="travelBacpack-section" class="py-5">
             <div class="container">
-                <h4 class="mb-3">TRAVEL BACKPACK</h4>
+                <h4 class="mb-4"><span class="text-highlight">TRAVEL</span> BACKPACK</h4>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
                     <div class="col">
                         <div class="card h-100 card-content img-hover border-0 shadow-lg">
@@ -322,6 +324,104 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="discount-section" class="py-5">
+            <div class="container">
+                <h4 class="mb-4">WINTER <span class="text-highlight">DISCOUNT</span></h4>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 card-content img-hover card-hover border-0 shadow-lg">
+                            <h5><span>40% OFF</span></h5>
+                            <div class="p-3 card-img img-custom">
+                                <img src="images/travel-bag1.png" class="card-img-top bg-info p-2" alt="Travel bag1">
+                            </div>
+
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Hiking Trekking Bag Camping</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Veritatis,
+                                    totam?</p>
+
+                                <div
+                                    class="card-footer d-flex justify-content-between align-items-center bg-white p-3 border-0">
+                                    <h4>$240</h4>
+                                    <button type="button" class="btn btn-info"><i class="fas fa-cart-arrow-down"></i>
+                                        BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 card-content img-hover card-hover border-0 shadow-lg">
+                            <h5><span>30% OFF</span></h5>
+                            <div class="p-3 card-img img-custom">
+                                <img src="images/travel-bag2.png" class="card-img-top bg-info p-2" alt="Travel bag2">
+                            </div>
+
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Hiking Trekking Bag Camping</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Veritatis,
+                                    totam?</p>
+
+                                <div
+                                    class="card-footer d-flex justify-content-between align-items-center bg-white p-3 border-0">
+                                    <h4>$240</h4>
+                                    <button type="button" class="btn btn-info"><i class="fas fa-cart-arrow-down"></i>
+                                        BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 card-content img-hover card-hover border-0 shadow-lg">
+                            <h5><span>25% OFF</span></h5>
+                            <div class="p-3 card-img img-custom">
+                                <img src="images/travel-bag3.png" class="card-img-top bg-info p-2" alt="Travel bag3">
+                            </div>
+
+                            <div class="card-body p-3">
+                                <h5 class="card-title">Hiking Trekking Bag Camping</h5>
+                                <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Veritatis,
+                                    totam?</p>
+
+                                <div
+                                    class="card-footer d-flex justify-content-between align-items-center bg-white p-3 border-0">
+                                    <h4>$240</h4>
+                                    <button type="button" class="btn btn-info"><i class="fas fa-cart-arrow-down"></i>
+                                        BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact-section" class="py-5">
+            <div class="container">
+                <h4 class="text-center pb-5">CONTACT <span class="text-highlight">US</span></h4>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="FormControlInput1" class="form-label"><b>Email address</b></label>
+                            <input type="email" class="form-control" id="FormControlInput1" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="FormControlTextarea1" class="form-label"><b>Message</b></label>
+                            <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                          </div>
+                          <div class="text-center">
+                            <button class="btn btn-info" type="button" id="inputGroupFileAddon04">Button</button>
+                          </div>
+                          
+                    </div>
+                </div>
+            </div>
+            
+            
         </section>
 
 

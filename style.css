@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     /* font-family: 'Bebas Neue', cursive; */
     /* font-family: 'Roboto', sans-serif; */
@@ -29,11 +32,25 @@ h5{
 }
 
 /************************** Header Section **************************/
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    /* display: inline-block; */
+    background-color:  rgba(10, 200, 247, 0.6);
+    /* opacity: 0.6; */
+}
+/* header{
+    background-color: red;
+    top: 0;
+    width: 100%;
+    position: fixed;
+} */
 nav{
-    background-color:  #f7e70a;
+    /* background-color:  red; */
 }
 #banner-section{
-    background-color: #f7e70a;
+    background-color: rgba(10, 212, 247, 0.6);
     border-radius: 0 0 0 250px;
 }
 /* .nav-right{
@@ -41,7 +58,7 @@ nav{
 } */
 .banner-img img
 {
-    height: 530px;
+    height: 430px;
     
 }
 .feature-content{
@@ -95,4 +112,28 @@ nav{
 }
 .img-hover:hover .card-img img{
     transform: scale(0.9);
+}
+
+/***************************** Discount Section *****************************/
+.img-custom img{
+    border-radius: 10px 100px 10px 10px;
+}
+.card span{
+    color: #fff;
+    float: right;
+    padding: 20px;
+    background: red;
+}
+
+/****************************** Contact Section ******************************/
+
+#contact-section{
+    margin: auto;
+    background: url("images/bg-contact.png");
+    background-size: cover;
+    background-position: center;
+    /* background-color: red; */
+}
+.text-highlight{
+    color: rgb(5, 243, 252);
 }
