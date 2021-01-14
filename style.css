@@ -133,9 +133,6 @@ p{
 
 /************************* Travel Backpack Section *************************/
 
-#travelBacpack-section{
-
-}
 .img-hover:hover .card-img img{
     transform: scale(0.9);
 }
@@ -179,10 +176,6 @@ p{
 }
 #footer-section a:hover{
     color: yellow;
-}
-
-.card-footer button{
-    /* padding-left: 2px; */
 }
 
 /**************************** Bootom To Top Button *****************************/
