@@ -11,54 +11,80 @@ body{
     /* font-family: 'Roboto', sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navbar-brand{
-    font-size: 24px;
-    font-weight: 700;
-
-}
-#navbarNav a{
-    font-size: 18px;
-    font-weight: 700;
-    color: #fff;
-}
-
 .btn{
+    font-weight: 700;
     padding: 10px 25px;
     border: none;
     outline: none;
+    transition: all 500ms;
 }
-h5{
+.btn:hover{
+    color: #fff;
+}
+h2,h4,h5{
+    font-weight: 700;
+}
+p{
+    color:grey;
+    font-size: 16px;
     font-weight: 700;
 }
 
 /************************** Header Section **************************/
+
+.nav-brand{
+    font-size: 24px;
+    font-weight: 700;
+    transition: all 1000ms;
+}
+.nav-brand:hover{
+    color: rgb(161, 21, 138) !important;
+}
+.bag-logo{
+    color: rgb(247, 11, 208);
+}
+#navbarNav a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #0697f8;
+    transition: all 500ms;
+}
+#navbarNav a:hover{
+    color: #fff;
+}
+
 .navbar{
     position: fixed;
     top: 0px;
     width: 100%;
-    /* display: inline-block; */
-    background-color:  rgba(10, 200, 247, 0.6);
-    /* opacity: 0.6; */
+    background-color:  rgb(10, 200, 247);
 }
-/* header{
-    background-color: red;
-    top: 0;
-    width: 100%;
-    position: fixed;
-} */
-nav{
-    /* background-color:  red; */
+/* First nav-link .active*/
+.active{
+    color:  #fff!important; 
 }
+.active:hover{
+    color: #0697f8 !important;
+}
+
+/****************** Banner Section ******************/
+
 #banner-section{
     background-color: rgba(10, 212, 247, 0.6);
-    border-radius: 0 0 0 250px;
+    border-radius: 0 0 0 300px;
 }
-/* .nav-right{
-    margin-left: auto;
-} */
+#banner-section h2{
+    color: rgb(209, 14, 151);
+    font-weight: 700;
+}
+.text-colorful{
+    color: rgb(114, 158, 25);
+}
 .banner-img img
 {
-    height: 430px;
+    height: 432px;
+    padding-left: 100px;
+    padding-top: 30px;
     
 }
 .feature-content{
@@ -95,7 +121,6 @@ nav{
 #casualBacpack-section{
     background: url("images/bg-casual.png");
     background-size: cover;
-    /* background-position: center; */
 }
 .card-hover{
     opacity: 0.5;
@@ -132,8 +157,47 @@ nav{
     background: url("images/bg-contact.png");
     background-size: cover;
     background-position: center;
-    /* background-color: red; */
 }
 .text-highlight{
     color: rgb(5, 243, 252);
+}
+
+/******************************* Footer Section *******************************/
+
+#footer-section{
+    background: royalblue;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+#footer-section a:hover{
+    color: yellow;
+}
+
+.card-footer button{
+    padding-left: 5px;
+}
+
+/**************************** Bootom To Top Button *****************************/
+
+.btt {
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    background: #02caf7;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: all 500ms;
+}
+.btt:hover {
+    background: #8a04f8;
+}
+
+/* A piece of Media Query. A little bit value of this project */
+
+@media (max-width:576px){
+    .nav-brand{
+        font-size: 14px;
+    }
 }
