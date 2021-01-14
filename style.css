@@ -8,6 +8,16 @@ body{
     /* font-family: 'Roboto', sans-serif; */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.navbar-brand{
+    font-size: 24px;
+    font-weight: 700;
+
+}
+#navbarNav a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+}
 
 .btn{
     padding: 10px 25px;
@@ -19,9 +29,11 @@ h5{
 }
 
 /************************** Header Section **************************/
-
-header{
-    background-color: rgb(106, 27, 209);
+nav{
+    background-color:  #f7e70a;
+}
+#banner-section{
+    background-color: #f7e70a;
     border-radius: 0 0 0 250px;
 }
 /* .nav-right{
@@ -29,7 +41,7 @@ header{
 } */
 .banner-img img
 {
-    height: 450px;
+    height: 530px;
     
 }
 .feature-content{
@@ -39,7 +51,14 @@ header{
     width: 70px;
 }
 
-/************************* New Arival Section *************************/
+/************************** Features Section **************************/
+
+#features-section{
+    background: url("images/bg-features.png");
+    background-position: center;
+}
+
+/*** New Arival Section with some style of Casual backpack section ****/
 
 .card-content
 {
@@ -54,4 +73,26 @@ header{
     transform: scale(1.1);
 }
 
+/************************ Casual Backpack Section ************************/
 
+#casualBacpack-section{
+    background: url("images/bg-casual.png");
+    background-size: cover;
+    /* background-position: center; */
+}
+.card-hover{
+    opacity: 0.5;
+    transition: all 500ms;
+}
+.card-hover:hover{
+    opacity: 1;
+}
+
+/************************* Travel Backpack Section *************************/
+
+#travelBacpack-section{
+
+}
+.img-hover:hover .card-img img{
+    transform: scale(0.9);
+}
